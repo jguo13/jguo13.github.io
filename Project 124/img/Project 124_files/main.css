@@ -1,0 +1,35 @@
+.background {
+	background-color: #CED9BC;
+}
+.nav a {
+
+	color: #black;
+	font-size: 20px;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+.nav li{
+	display: inline; 
+
+}
+
+.Sign-in img{
+	padding-bottom: 20px;
+
+}
+.Sign-in jumbotron{
+	background-color: #D3D8D1;
+}
+
+.jumbotron h1{
+	margin-left: 10px;
+}
+.jumbotron p{
+	margin-left: 20px;
+}
+}
+body: {
+	color: red
+
+
+}
