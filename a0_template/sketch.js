@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
 	stroke('#222222')
-	background(200);
+	background(10000);
 	//second background
 	for (let i = 0; i < 60; i++) {
 		strokeWeight(3)
