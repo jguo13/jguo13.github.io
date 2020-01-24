@@ -37,9 +37,18 @@ function draw() {
 	line(20+minute()*(space+2), 0, 20+minute()*(space+2), 400-minute()*6);
 	//hour bars
 	for (let i = 0; i < hour(); i++) {
-		stroke(100 + i * (space + 20),0 + i * (space + 15),255 + i * (space + 20),150)
-		strokeWeight(30)
-		line(400 + i * (space + 30), 0, 400 + i * (space + 30), 600);
+
+		if (i % 2 == 0) {
+		stroke(100 + (i-1) * (space + 20),0 + (i-1) * (space + 5),255 + (i-1) * (space + 20),150)
+		strokeWeight(20)
+		line(400 + i * (space + 10), 0, 400 + i * (space + 10), 300);
+
+		}
+		else {
+		stroke(100 + i * (space + 20),0 + i * (space + 5),255 + i * (space + 20),150)
+		strokeWeight(20)
+		line(400 + (i-1) * (space + 10), 325, 400 + (i-1) * (space + 10), 600);
+		}
 	}
 }
 
